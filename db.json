@@ -1,0 +1,67 @@
+{
+  "user": [
+    {
+      "id": "viewer",
+      "name": "viewer",
+      "password": "Viewer12345$",
+      "role": "user"
+    },
+    {
+      "id": "editor",
+      "name": "editor",
+      "password": "Editor12345$",
+      "role": "admin"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "userCanAdd": true,
+      "userCanEdit": true,
+      "userCanDelete": true
+    },
+    {
+      "role": "user",
+      "userCanAdd": false,
+      "userCanEdit": false,
+      "userCanDelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "first_name": "Jeanette",
+      "last_name": "Penddreth"
+    },
+    {
+      "id": 9,
+      "first_name": "Giavani",
+      "last_name": "Frediani"
+    },
+    {
+      "id": 7,
+      "first_name": "Noell",
+      "last_name": "Bea"
+    },
+    {
+      "id": 4,
+      "first_name": "Willard",
+      "last_name": "Valek"
+    },
+    {
+      "id": 3,
+      "first_name": "Noell",
+      "last_name": "Bea"
+    },
+    {
+      "id": 11,
+      "first_name": "Noell",
+      "last_name": "Bea"
+    },
+    {
+      "id": 15,
+      "first_name": "Noell",
+      "last_name": "Bea"
+    }
+  ]
+}
