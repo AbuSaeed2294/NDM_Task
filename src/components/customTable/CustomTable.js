@@ -88,9 +88,9 @@ const CustomTable = () => {
           />
         </tr>
         <tr>
+          <th>Id</th>
           <th>First Name</th>
           <th>Last Name</th>
-          <th>Job Title</th>
           <th>Access</th>
         </tr>
       </thead>
